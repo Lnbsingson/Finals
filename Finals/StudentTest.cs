@@ -15,22 +15,8 @@ namespace Finals
         public Student data2 { get; set; }
         public void DoTest()
         {
-            Student test = new Student("biboy lagrosa", "CpE", "Coe123", "Mapua University", "lagrosaAte@gmail.com", "0931247141");
-            Student test2 = new Student("biboy lagrosa", "CpE", "Coe123", "Mapua University", "lagrosaAte@gmail.com");
-            //Student test3 = new Student("biboy lagrosa", "CpE", "Coe123", "Mapua University");
-            //Student test4 = new Student("biboy lagrosa", "CpE", "Coe123");
-            //Student test5 = new Student("biboy lagrosa", "CpE", "Coe123");
-            //Student test6 = new Student("biboy lagrosa", "CpE");
-            //Student test7 = new Student("biboy lagrosa");
-            //Student test8 = new Student();
-            //test.displayData();
-            //test2.displayData();
-            //test3.displayData();
-            //test4.displayData();
-            //test5.displayData();
-            //test6.displayData();
-            //test7.displayData();
-            //test8.displayData();
+            Student test = new Student("John Doe", "BS Architecture II", "Computer Programming 2", "University of the Philippines", "johndoe@gmail.com", "09475346671");
+            Student test2 = new Student("John Doe", "BS Architecture II", "Computer Programming 2", "University of the Philippines", "johndoe@gmail.com");
             data1 = test;
             data2 = test2;
 
