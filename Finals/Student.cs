@@ -83,7 +83,7 @@ namespace Finals
 
         }
         public static int InstanceCounter = 0;
-        public void displayData()
+        public  void displayData()
         {
             Console.WriteLine($"The data of the student: {fullName} \nCourse: {course}\nSubject: {subject}\nUniversity:{university}\nEmail:{email}\nPhone Number: {pN}");
         }

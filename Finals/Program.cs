@@ -6,7 +6,9 @@ namespace Finals
     {
         static void Main(string[] args)
         {
-            
+            StudentTest kurwa = new StudentTest();
+            kurwa.DoTest();
+            kurwa.DisplayData1();
 
         }
     }
